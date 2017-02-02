@@ -1,0 +1,143 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#home-slider {
+  position: relative;
+  padding: 0;
+}
+
+#button-slide {
+  position: absolute;
+  height: calc(100vh);
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 997;
+  top: 0;
+  pointer-events: none;
+  width: 100%;
+}
+
+#buttons-slide a {
+  pointer-events: auto;
+}
+
+.tombol {
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.tombol > li {
+  float: left;
+  margin-left: 20px;
+  border: none;
+}
+
+.tombol > li > a {
+  display: block;
+  text-decoration: none;
+}
+
+#about {
+  width: 100%;
+  background-color: #009EE3;
+  padding: 0 60px;
+  color: white;
+  height: 550px;
+}
+
+#prestasi {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 0 60px;
+  height: 550px;
+}
+/*hompage*/
+
+#home-slider {
+  position: relative;
+  padding: 0;
+}
+
+/*dashboard*/
+=======
+#kotak {
+  padding: 40px;
+  color: white;
+}
+
+#visimisi {
+  margin-bottom: 100px;
+}
+
+#visimisi > div > i {
+  margin-bottom: 40px;
+}
+
+#visimisi > div {
+  border: 3px solid #f0f0f0;  
+  padding: 20px;
+}
+
+#content {
+  max-width: 100%;
+}
+#header {
+  border: none;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.daftar {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.sidebar {
+  top: 64px;
+  font-weight: bold;
+}
+
+.side-nav {
+  width: 17%;
+}
+
+.navbar-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  padding-top: 10px;
+}
+.navbar-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+.navbar-sidebar > li {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.navbar-sidebar > li:hover {
+  background-color: #15C3B5;
+}
+.collapsible-li > li:hover {
+  background-color: red;
+}
+.collapsible-li > li {
+  background-color: teal;
+}
+
+.profile {
+  text-align: right;
+}
